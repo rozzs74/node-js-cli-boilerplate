@@ -1,0 +1,1 @@
+Starter template for NodeJS CLI apps

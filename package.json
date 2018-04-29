@@ -1,0 +1,23 @@
+{
+	"name": "ins",
+	"version": "1.0.0",
+	"description": "CLI app for MKP and GIT",
+	"main": "index.js",
+	"preferGlobal": true,
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "tsc -p tsconfig.json -w"
+	},
+	"bin": {
+		"app": "./build/app.js"
+	},
+	"author": "CBO FRONTEND DEVOPS",
+	"license": "ISC",
+	"dependencies": {
+		"commander": "^2.15.1",
+		"typescript": "^2.8.3"
+	},
+	"devDependencies": {
+		"@types/node": "^10.0.0"
+	}
+}
